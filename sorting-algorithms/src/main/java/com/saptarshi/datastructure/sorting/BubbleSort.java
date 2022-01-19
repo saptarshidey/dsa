@@ -8,7 +8,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         Random rnd = new Random();
 
-        int[] numbers = new int[100];
+        int[] numbers = new int[10];
         for (int i = 0; i < numbers.length; i++) {
         	numbers[i] = rnd.nextInt(100);
         }
