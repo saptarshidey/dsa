@@ -22,8 +22,8 @@ public class QuickSort {
         System.out.println(Arrays.toString(numbers));
     }
 
-    /*
-     * An overloaded sort method without array bounds that is more natural to invoke from main()
+    /*s
+     * An overloaded sort method without array bounds which is more natural to invoke from main()
      */
     private static void sort(int[] arr) {
         sort(arr, 0, arr.length - 1);
